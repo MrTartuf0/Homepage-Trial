@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Align center */
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+}
+main{
+    width: min( 100vw , 1200px);    
+    height: 3000vh;   
+}
+
+/* Spacing between menus */
+.desktop__menu{
+    height: 119px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px 0 30px 0;
+}
+.mobile__menu{
+    display: none;
+}
+
+/* Top section with social, language settings and Logo */
+.top-menu{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Left section of the upper menu */
+.left__side__menu{
+    padding: 10px 0;
+    display: flex;
+}
+.account__information{
+    font-size: 14px;
+    padding: 9px 0 0 29px;
+}
+.account__information > div > a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #0061A3;
+}
+.name__account, .balance__account{
+    display: inline-block;
+    font-weight: 700;
+}
+
+/* Right section of the upper menu */
+.right__side__menu{
+    padding: 15px;
+}
+.language__selector{
+    display: flex;
+    justify-content: center;
+    height: 24px;
+}
+.language__name{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.language__name > img {
+    margin: 0 0 0 11px;
+}
+.country{
+    width: 20px;
+    display: flex;
+    margin: 0 11px 0 0;
+}
+.social{
+    padding: 0 0 6px 0;
+    display: flex;
+}
+.social > img:not(:last-child){
+    padding: 0 10px 0 0;
+}
+
+
+/* Navbar */
+nav{   
+    width: 100%;
+    height: 34px;
+    background-color: #F30000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px 12px 12px 8px;
+}
+nav > ul {
+    display: flex;
+    list-style: none;
+    height: 24px;
+}
+nav > ul > li {
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+nav > ul > li > a , .account-btn{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+nav > ul > li:nth-child(0) > a{
+    color: black;
+}
+nav > a {
+    height: 100%;
+    text-decoration: none;
+}
+.account-btn{
+    padding: 0 38px;
+    background-color: #0061A3;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+}
+
+
+/* Banner */
+.banner__img{
+    border-radius: 8px;
+    display: flex;
+    margin: 0 0 30px 0;
+}
+.banner__mobile{
+    display: flex;
+    display: none;
+    padding: 0 0 16px;
+}
+.main__padding{
+    padding: 0 15px;
+}
+
+/* Sub-Banner Selections */
+.sub__banner_selections{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.selection__item{
+    display: flex;
+    padding: 5px 15px 6px 5px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    min-height: 90px;
+}
+.top__selection__text{
+    display: flex;
+    font-weight: 500;
+    justify-content: space-between;
+    padding: 0 0 5px 0;
+}
+.top__selection__text > a{
+    font-size: 14px;
+    color: #0061A3;
+}
+.selection__img{
+    display: flex;
+    align-items: center;
+}
+
+.selection__img:not(.selection__item:last-child > .selection__img){
+    padding: 0 5px 0 0;
+}
+
+.selection__text > p{
+    color: #5F5F5F;
+    font-size: 14px;
+    font-weight: 400;
+}
