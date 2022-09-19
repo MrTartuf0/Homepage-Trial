@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgba(23, 119, 184, 0.15);
 }
 
 /* Align center */
@@ -173,13 +174,103 @@ nav > a {
     display: flex;
     align-items: center;
 }
-
 .selection__img:not(.selection__item:last-child > .selection__img){
     padding: 0 5px 0 0;
 }
-
 .selection__text > p{
     color: #5F5F5F;
     font-size: 14px;
     font-weight: 400;
 }
+
+/* Lottery Draws */
+.lottery__draws__title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 75px 0 30px 0;
+    position: relative;
+    right: 6px;
+}
+.lottery__draws{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.draw{
+    height: 150px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.draw__price , .center__draw__img , .draw , .top__draw , .bottom__draw , .draw__time__left , .draw__us__name{
+    display: flex;
+}
+.top__draw{
+    padding: 6px 0 0 0;
+}
+.draw__img{
+    width: 141px;
+    height: 80px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #E0E0E0;
+    border-radius: 100%;
+}
+.draw__country__logo{
+    padding: 0 10px 0 0;
+    height: 14px;
+    display: flex;
+    align-items: center;
+}
+.draw__us__name{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    padding: 0 0 14.5px 0;
+}
+.draw__playnow{
+    width: 50%;
+    align-items: center;
+}
+.draw__playnow > button{
+    background-color: #F7D300;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border: none;
+}
+.bottom__draw{
+    align-items: center;
+    background-color: #0061A3;
+    height: 57.79px;
+}
+.draw__time__left > span{
+    color: white;
+    padding: 0 0 0 4px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.draw__time__left{
+    width: 148px;
+    justify-content: center;
+}
+.draw__price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center__draw__img{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.draw__dollars{
+    color: #13902A;
+    font-size: 26px;
+    line-height: 22px;
+    font-weight: 700;
+}
+

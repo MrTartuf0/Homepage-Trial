@@ -52,6 +52,8 @@
         font-weight: 500;
         color: #0061A3;
     }
+
+    /* Sub Banner */
     .sub__banner_selections{
         grid-auto-flow: row;
         grid-template-columns: none;
@@ -63,6 +65,22 @@
     .top__selection__text{
         padding: 0 0 9px 0;
     }
+
+    /* Lottery Draws */
+    .lottery__draws__title{
+        font-size: 18px;
+        line-height: 24px;
+        padding: 30px 0 18px 0;
+        right: 0;
+    }
+    .lottery__draws{
+        display: grid;
+        grid-template-columns: none;
+        grid-auto-flow: row;
+    }
+
+
+
 
 
 
