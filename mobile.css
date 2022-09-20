@@ -78,14 +78,31 @@
         grid-template-columns: none;
         grid-auto-flow: row;
     }
+    .draw__img{
+        width: 127.27px;
+        height: 80px;
+    }
+    .draw__us__name{
+        padding: 0 0 12px 0;
+    }
+    .draw__dollars{
+        font-size: 24px;
+    }
+    .draw__playnow > button{
+        height: 34px;
+        width: 100%;
+        margin: 0 16px;
+    }
+    .bottom__draw{
+        height: 60.43px;
+    }
 
-
-
-
-
-
-
-
-
+    /* UPCOMING */
+    /* Title */
+    .upcoming__title{
+        font-size: 16px;
+        line-height: 19.2px;
+        margin: 45px 0 29px 0;
+    }
 
 }
