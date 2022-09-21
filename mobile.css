@@ -104,5 +104,26 @@
         line-height: 19.2px;
         margin: 45px 0 29px 0;
     }
+    /* grid */
+    .upcoming__grid{
+        display: grid;
+        padding: 0 8.5px;
+        gap: 16px;
+        width: 100%;
+        grid-template-columns: repeat(auto-fit, 155px);
+    }
+    .upcoming__element{
+        width: 155px;
+        height: 230px;
+    }
+
+
+
+
+
+
+
+
+
 
 }

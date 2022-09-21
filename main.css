@@ -300,6 +300,13 @@ nav > a {
 /* Grid */
 .upcoming__grid{
     display: grid;
+    padding: 0 35px;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, 208px);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
 }
 
 .upcoming__element{
