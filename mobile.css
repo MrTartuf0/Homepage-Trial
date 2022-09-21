@@ -102,7 +102,7 @@
     .upcoming__title{
         font-size: 16px;
         line-height: 19.2px;
-        margin: 45px 0 29px 0;
+        margin: 32.31px 0 15.7px 0;
     }
     /* grid */
     .upcoming__grid{
@@ -112,18 +112,37 @@
         width: 100%;
         grid-template-columns: repeat(auto-fit, 155px);
     }
+    /* grid element */
     .upcoming__element{
         width: 155px;
         height: 230px;
+        padding: 16px 8px 10px 8px;
     }
-
-
-
-
-
-
-
-
+    .upcoming__star{
+        width: 11.5px;
+        height: 11.5px;
+        top: 8px;
+        right: 8px;
+    }
+    .upcoming__img{
+        width: 80px;
+    }
+    .upcoming__btn{
+        margin: 8px 0 0 0;
+    }
+    .upcoming__country__mega > span{
+        font-size: 12px;
+        padding: 0 0 0 5px;  
+    }
+    .upcoming__price > span{
+        font-size: 18px;
+    }
+    .upcoming__btn{
+        height: 36px;
+    }
+    .upcoming__time > span{
+        font-size: 14px;
+    }
 
 
 }
