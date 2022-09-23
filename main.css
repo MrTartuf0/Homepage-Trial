@@ -417,6 +417,7 @@ nav > a {
     border-radius: 8px;
     border: 1px solid #E0E0E0;
     padding: 5px 0 8px 0;
+    margin: 0 0 30px 0;
 }
 .winning__tickets > div{
     display: flex;
@@ -432,4 +433,160 @@ nav > a {
     font-size: 18px;
     line-height: 21.6px;
     font-weight: 400;
+}
+.winning__tickets > h2{
+    font-size: 26px;
+    line-height: 22px;
+    color: #13902A;
+    font-weight: 700;
+    padding: 5px 0;
+}
+.winning__tickets > p{
+    font-size: 18px;
+    line-height: 21.6px;
+}
+.our__latest__winners > .winner{
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+    display: flex;
+    margin: 0 0 15px 0;
+    height: 78px;
+}
+.our__latest__winners > .winner > .winner__img{
+    padding: 10px 15.43px 10px 15px;
+}
+.winner > .winner__text > .winner__country{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+.winner__text{
+    padding: 10px 0 5px 0;
+}
+.winner > .winner__text > .winner__country > img{
+    padding: 0 5px 0 0;
+}
+.winner__text > p{
+    font-size: 14px;
+    line-height: 21px;
+    position: relative;
+    top: 4px;
+}
+.winner__text > h4{
+    font-size: 14px;
+    line-height: 21px;
+    color: #5F5F5F;
+    font-weight: 400;
+} 
+.lottery__win__body{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+.lotto__won__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 24px 0;
+}
+.lotto__won__title > h2{
+    padding: 0 10px 0 20px;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 500;
+}
+.lotto__won__title > h1{
+    font-size: 36px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #0061A3;
+}
+.lottery__winner{
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+}
+.story__and__details{
+    display: flex;
+    flex-direction: column;
+    width: 232px;
+    margin: 0 0 0 15.33px;
+}
+.story__and__details > h6{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    justify-content: left;
+    padding: 0 0 15px 0;
+}
+.story__and__details > p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.story__and__details > a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #0061A3;
+    padding: 32px 0 34.54px 0;
+    text-align: center;
+}
+.story__and__details > button{
+    padding: 9.5px 0 12.5px 0;
+    border: none;
+    background-color: #F7D300;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18.2px;
+}
+.happy__elderly__people{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 0 20px;
+}
+.happy__elderly__people > img{
+    width: 100%;
+}
+.lotto__numbers{
+    padding: 0 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lotto__results{
+    display: flex;
+    padding: 19.25px 0 0 0;
+}
+.lotto__results > h3{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.8px;
+    display: flex;
+}
+.lotto__array__numbers{
+    display: flex;
+    justify-content: center;
+}
+.lotto__array__numbers > p{
+    padding: 3px;
+    background: #F30000;
+    border-radius: 100vh;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.4px;
+    margin: 0 2px;
+    width: 21px;
+}
+.lotto__numbers__date{
+    font-size: 12px;
+    line-height: 15.6px;
+    padding: 5px 0 0 0;
 }

@@ -157,10 +157,45 @@
         padding: 13px 0;
         font-size: 16px;
     }
+    .winning__tickets{
+        margin: 0 0 16px 0;
+    }
     
+    .our__latest__winners > .winner{
+        margin: 0 0 8px 0;
+    }
 
-
-
+    /* Biggest Lottery Win */
+    .lottery__win__body{
+        padding: 16px 0;
+    }
+    .lotto__won__title > h2{
+        padding: 0 8px 0 20px;
+        font-size: 27px;
+    }
+    .lotto__won__title > h1{
+        font-size: 27px;
+    }
+    .lotto__won__title > img{
+        width: 40px;
+    }
+    .lotto__won__title{
+        padding: 0 0 12px 0;
+    }
+    .lottery__winner{
+        grid-template-columns: none;
+        grid-auto-flow: row;
+    }
+    .story__and__details{
+        margin: 0;
+        width: 100%;
+        align-items: center;
+    }
+    .story__and__details > a{
+        text-decoration: none;
+        color: #007AFF;
+        padding: 12px 0 0 16px;
+    }
 
 
 }
