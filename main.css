@@ -598,4 +598,21 @@ nav > a {
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
+    padding: 75px 0 15px 0;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+}
+.faq > .question{
+    display: flex;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 18px 20px 10px 20px;
+    color: #0061A3;
+    font-size: 18px;
+    line-height: 24px;
+    justify-content: space-between;
+}
+.faq > .question > h3{
+    font-weight: 500;
 }
