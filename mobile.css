@@ -194,8 +194,31 @@
     .story__and__details > a{
         text-decoration: none;
         color: #007AFF;
-        padding: 12px 0 0 16px;
+        padding: 12px 0 16px 0;
+    }
+    .lotto__numbers{
+        padding: 0 0 0 16px;
+    }
+    .story__and__details > button{
+        padding: 7.5px 0 10.5px 0;
+        width: 232px;
+    }
+    .story__and__details > h6{
+        padding: 16px 0 8px 0;
+    }
+    .story__and__details > p{
+        padding: 0 8px 0 16px;
+    }
+    .happy__elderly__people{
+        margin: 0;
     }
 
+    /* Not display faq mobile */
+    .faq__title{
+        display: none;
+    }
+    .faq{
+        display: none;
+    }
 
 }
