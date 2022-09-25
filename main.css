@@ -673,8 +673,7 @@ footer{
     grid-area: l;
     display: flex;
     flex-direction: column;
-    align-items: end;
-    padding: 0 30px 0 0;
+    padding: 0 0 0 109px;
 }
 .g4 > .title {
     font-weight: 500;
