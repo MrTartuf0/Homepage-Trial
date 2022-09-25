@@ -1,3 +1,43 @@
+@media screen and (max-width: 920px) {
+    footer{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: none;
+        grid-template-areas: none;
+        grid-auto-flow: row;
+        row-gap: 16px;
+        grid-template-areas: 
+        "w s"
+        "l p"
+        "m m"
+        ;
+    }
+    .g1 , .g2 , .g3 , .g4 , .g5 , .g6{
+        grid-area: auto;
+    }
+    .g1{
+        justify-content: unset;
+        padding: 10px;
+    }
+    .g3{
+        justify-content: end;
+        align-items: center;
+    }
+    .g4{
+        padding: 0 0 0 10px;
+        align-items: initial;
+    }
+    .g5{
+        justify-content: end;
+        padding: 0 10px 0 0;
+    }
+    .g6{
+        grid-area: m;
+        display: flex;
+        padding: 0 10px;
+        justify-content: space-between;
+    }
+}
+
 @media screen and (max-width: 480px) {
     
     /* Show and hide element */
@@ -221,4 +261,122 @@
         display: none;
     }
 
+    /* FOOTER */
+    footer{
+        background-image: url("./Images/star-mobile-bg.png");
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 113px auto auto auto auto;
+        padding: 0 44px 0 16px;
+        grid-template-areas: 
+        "w w"  
+        "l l"  
+        "p p"  
+        "m m"  
+        "b s"  
+        ;
+        gap: 0px;
+        position: relative;
+    }
+    .g1{
+        grid-area: w;
+        padding: 0;
+    }
+    .g1 > .icon{
+        margin: 0 16px 0 0;
+        width: 30px;
+    }
+    .g1 > .text > h4{
+        font-size: 14px;
+        line-height: 16.8px;
+    }
+    .g1 > .text > h5{
+        font-size: 12px;
+        line-height: 14.4px;
+    }
+    .g3{
+        grid-area: s;
+        padding: 0 0 0 34px;
+        justify-content: start;
+        position: absolute;
+        bottom: 24px;
+    }
+    .g3 > .social{
+        width: 24px;
+    }
+
+    .g4{
+        display: grid;
+        grid-area: l;
+        padding: 0px;
+        grid-template-columns: 56fr 44fr;
+        grid-template-rows: repeat(7 , auto);
+        grid-template-areas: 
+        "useful emptyspace"
+        "leftp rightp"
+        "leftp1 rightp1"
+        "leftp2 rightp2"
+        "leftp3 rightp3"
+        "leftp4 rightp4"
+        "space program"
+    }
+    .g4 > .empty{
+        grid-area: emptyspace;
+    }
+    .g4 > .empty1{
+        grid-area: space;
+    }
+    .g4 > .title{
+        margin: 16px 0 12px 0;
+        grid-area: useful;
+    }
+    .g4 > p {
+        font-size: 14px;
+    }
+    .g4 > p:nth-child(even){
+        grid-area: rightp rightp1 rightp2 rightp3 rightp4;
+    }
+    .g4 > p:nth-child(odd){
+        grid-area: leftp leftp1 leftp2 leftp3 leftp4;
+    }
+    .g4 > h4{
+        font-weight: 500;
+        font-size: 14px;
+        grid-area: program;
+    }
+    .g5{
+        grid-area: p;
+        padding: 20px 0;
+    }
+    .g5 > .text{
+        max-width: 100%;
+    }
+    .g5 > .text > h4{
+        font-size: 14px;
+    }
+    .g5 > .text > p{
+        padding: 0;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .g5 > .text > h6{
+        font-size: 10px;
+    }
+    .g6{
+        grid-area: m;
+        padding: 0;
+        column-gap: 34px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .g6 > .top {
+        padding: 0 0 50px 0;
+    }
+    .g6 > .top > h2 , .g6 > .bottom > h2{
+        padding: 0 0 10px 0;
+        font-size: 14px;
+    }
+    .g6 > .bottom > section > div:last-child {
+        padding: 0;
+    }
 }
+
