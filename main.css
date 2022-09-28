@@ -16,7 +16,7 @@ body{
     font-family: 'Roboto';
 }
 main{
-    width: min( 100vw , 1200px);    
+    width: 1200px;    
 }
 
 /* Spacing between menus */
