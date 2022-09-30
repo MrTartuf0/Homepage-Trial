@@ -168,6 +168,7 @@ nav > a {
     font-weight: 500;
     justify-content: space-between;
     padding: 0 0 5px 0;
+    font-size: 16px;
 }
 .top__selection__text > a{
     font-size: 14px;
@@ -176,6 +177,7 @@ nav > a {
 .selection__img{
     display: flex;
     align-items: center;
+    width: 140px;
 }
 .selection__img:not(.selection__item:last-child > .selection__img){
     padding: 0 5px 0 0;

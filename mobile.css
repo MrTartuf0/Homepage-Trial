@@ -1,57 +1,5 @@
-@media screen and (max-width: 920px) {
-
-    body{
-        zoom: 0.67;
-    }
-
-    footer{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: none;
-        grid-template-areas: none;
-        grid-auto-flow: row;
-        row-gap: 16px;
-        grid-template-areas: 
-        "w s"
-        "l p"
-        "m m"
-        ;
-    }
-    .g1 , .g2 , .g3 , .g4 , .g5 , .g6{
-        grid-area: auto;
-    }
-    .g1{
-        justify-content: unset;
-        padding: 10px;
-    }
-    .g3{
-        justify-content: end;
-        align-items: center;
-    }
-    .g4{
-        padding: 0 0 0 10px;
-        align-items: initial;
-    }
-    .g5{
-        justify-content: end;
-        padding: 0 10px 0 0;
-    }
-    .g6{
-        grid-area: m;
-        display: flex;
-        padding: 0 10px;
-        justify-content: space-between;
-    }
-
-}
-
 @media screen and (max-width: 480px) {
     
-
-    body{
-        zoom: 1;
-    }
-
-
     /* Show and hide element */
     .desktop__menu{
         display: none;
@@ -392,3 +340,453 @@
     }
 }
 
+@media screen and (max-width: 920px){
+    main{
+        width: 804px;    
+    }
+
+    /* Spacing between menus */
+    .desktop__menu{
+        height: 79.73px;
+        margin: 10.5px 0 20.1px 0;
+    }
+
+    /* Top section with social, language settings and Logo */
+    .top-menu{
+        height: 53.6px;
+    }
+
+    /* Left section of the upper menu */
+    .left__side__menu{
+        padding: 6.7px 0;
+    }
+    .account__information{
+        font-size: 9.38px;
+        padding: 6.03px 0 0 19.43px;
+    }
+
+    /* Right section of the upper menu */
+    .right__side__menu{
+        padding: 10.05px;
+    }
+    .language__selector{
+        height: 16.08px;
+    }
+    .language__name{
+        font-size: 9.38px;
+    }
+    .language__name > img {
+        margin: 0 0 0 7.37px;
+    }
+    .country{
+        width: 13.4px;
+        margin: 0 7.37px 0 0;
+    }
+    .right__side__menu > .social{
+        padding: 0 0 4.02px 0;
+    }
+    .social > img:not(:last-child){
+        padding: 0 6.7px 0 0;
+    }
+
+    /* Navbar */
+    nav{   
+        height: 22.78px;
+        border-radius: 5.36px 8.04px 8.04px 5.36px;
+    }
+    nav > ul {
+        height: 16.08px;
+    }
+    nav > ul > li {
+        border-right: 0.67px solid white;
+        padding: 0 16.75px;
+    }
+    nav > ul > li > a , .account-btn{
+        font-size: 10.72px;
+    }
+    .account-btn{
+        padding: 0 25.46px;
+        border-radius: 5.36px;
+    }
+
+    /* Banner */
+    .banner__img{
+        border-radius: 5.36px;
+        margin: 0 0 20.1px 0;
+    }
+    .banner__mobile{
+        padding: 0 0 10.72px;
+    }
+    .main__padding{
+        padding: 0 10.05px;
+    }
+
+    /* Sub-Banner Selections */
+    .sub__banner_selections{
+        gap: 10.05px;
+    }
+    .selection__item{
+        padding: 3.35px 10.05px 4.02px 3.35px;
+        border: 0.67px solid #E0E0E0;
+        border-radius: 5.36px;
+        min-height: 60.3px;
+    }
+    .top__selection__text{
+        padding: 0 0 3.35px 0;
+        font-size: 10.72px;
+    }
+    .top__selection__text > a{
+        font-size: 9.38px;
+    }
+    .selection__img{
+        width: 93.8px;
+    }
+    .selection__img:not(.selection__item:last-child > .selection__img){
+        padding: 0 3.35px 0 0;
+    }
+    .selection__text > p{
+        font-size: 9.38px;
+    }
+    /* Lottery Draws */
+    .lottery__draws__title{
+        font-size: 16.08px;
+        line-height: 24.12px;
+        padding: 50.25px 0 20.1px 0;
+        right: 4.02px;
+    }
+    .lottery__draws{
+        gap: 10.05px;
+    }
+    .draw{
+        height: 100.5px;
+        border-radius: 5.36px;
+        border: 0.67px solid #E0E0E0;
+    }
+    .top__draw{
+        padding: 4.02px 0 0 0;
+    }
+    .draw__img{
+        width: 94.47px;
+        height: 53.6px;
+        padding: 6.7px;
+        border: 1.34px solid #E0E0E0;
+    }
+    .draw__country__logo{
+        padding: 0 6.7px 0 0;
+        height: 9.38px;
+    }
+    .draw__us__name{
+        font-size: 9.38px;
+        line-height: 11.256px;
+        padding: 0 0 9.715px 0;
+    }
+    .draw__playnow > button{
+        font-size: 10.72px;
+        line-height: 16.08px;
+        height: 24.12px;
+        margin: 0 8.2075px;
+        border-radius: 5.36px;
+    }
+    .bottom__draw{
+        height: 38.7193px;
+        border-radius:  0 0 5.36px 5.36px;
+    }
+    .draw__time__left > span{
+        padding: 0 0 0 2.68px;
+        font-size: 12.06px;
+    }
+    .draw__time__left{
+        width: 99.16px;
+    }
+    .draw__dollars{
+        font-size: 17.42px;
+        line-height: 14.74px;
+    }
+
+    /* UPCOMING */
+    /* Title */
+    .upcoming__title{
+        height: 30.15px;
+        font-size: 12.06px;
+        line-height: 16.08px;
+        border-radius: 5.36px;
+        margin: 49.58px 0 10.05px 0;
+    }
+    /* Grid */
+    .upcoming__grid{
+        padding: 0 23.45px;
+        gap: 10.72px 16.08px;
+        grid-template-columns: repeat(auto-fit, 134px);
+    }
+    .upcoming__element{
+        border: 0.67px solid #E0E0E0;
+        border-radius: 5.36px;
+        width: 139.36px;
+        height: 180.9px;
+        padding: 8.04px 8.71px 8.71px 8.71px;
+    }
+    .upcoming__star{
+        top: 8.04px;
+        right: 5.36px;
+    }
+    .upcoming__img{
+        width: 63.65px;
+        border: 1.34px solid #E0E0E0;
+    }
+    .upcoming__btn{
+        height: 25.46px;
+        border-radius: 5.36px;
+        line-height: 16.08px;
+        font-size: 10.72px;
+        margin: 8.04px 0 0 0;
+    }
+    .upcoming__time > span{
+        line-height: 12.06px;
+        font-size: 10.72px;
+        padding: 0 0 0 2.68px;
+    }
+    .upcoming__price{
+        padding: 5.36px 0;
+    }
+    .upcoming__country__mega > span{
+        font-size: 9.38px;
+        padding: 0 0 0 2.01px;  
+    }
+    .upcoming__price > span{
+        font-size: 13.4px;
+        line-height: 14.74px;
+    }
+    .more__details{
+        font-size: 12.06px;
+        line-height: 16.08px;
+        padding: 10.05px 23.45px 50.25px 0;
+    }
+
+
+    /* WINNERS */
+    .two__third__grid{
+        gap: 10.05px;
+    }
+    .our__latest__winners > .title , .bittest__lottery__win > .title{
+        padding: 7.035px 0;
+        font-size: 12.06px;
+        line-height: 16.08px;
+        margin: 0 0 10.05px 0;
+        border-radius: 5.36px;
+    }
+    .winning__tickets{
+        border-radius: 5.36px;
+        border: 0.67px solid #E0E0E0;
+        padding: 3.35px 0 5.36px 0;
+        margin: 0 0 20.1px 0;
+    }
+    .winning__tickets > div > h2{
+        font-size: 17.42px;
+        line-height: 20.904px;
+    }
+    .winning__tickets > div > p{
+        padding: 0 0 0 6.7px;
+        font-size: 12.06px;
+        line-height: 14.472px;
+    }
+    .winning__tickets > h2{
+        font-size: 17.42px;
+        line-height: 14.74px;
+        padding: 3.35px 0;
+    }
+    .winning__tickets > p{
+        font-size: 12.06px;
+        line-height: 14.472px;
+    }
+    .our__latest__winners > .winner{
+        border-radius: 5.36px;
+        border: 0.67px solid #E0E0E0;
+        margin: 0 0 10.05px 0;
+        height: 52.26px;
+    }
+    .our__latest__winners > .winner > .winner__img{
+        padding: 6.7px 10.3381px 6.7px 10.05px;
+    }
+    .winner > .winner__text > .winner__country{
+        font-size: 9.38px;
+        line-height: 14.07px;
+    }
+    .winner__text{
+        padding: 6.7px 0 3.35px 0;
+    }
+    .winner > .winner__text > .winner__country > img{
+        padding: 0 3.35px 0 0;
+    }
+    .winner__text > p{
+        font-size: 9.38px;
+        line-height: 14.07px;
+        top: 2.68px;
+    }
+    .winner__text > h4{
+        font-size: 9.38px;
+        line-height: 14.07px;
+    } 
+    .lottery__win__body{
+        padding: 13.4px 0;
+        border: 0.67px solid #E0E0E0;
+        border-radius: 5.36px;
+    }
+    .lotto__won__title{
+        padding: 0 0 16.08px 0;
+    }
+    .lotto__won__title > h2{
+        padding: 0 6.7px 0 13.4px;
+        font-size: 18.76px;
+        line-height: 24.12px;
+    }
+    .lotto__won__title > h1{
+        font-size: 24.12px;
+        line-height: 14.74px;
+    }
+    .story__and__details{
+        width: 155.44px;
+        margin: 0 0 0 10.2711px;
+    }
+    .story__and__details > h6{
+        font-size: 10.72px;
+        line-height: 16.08px;
+        padding: 0 0 10.05px 0;
+    }
+    .story__and__details > p{
+        font-size: 9.38px;
+        line-height: 14.07px;
+    }
+    .story__and__details > a{
+        font-size: 9.38px;
+        line-height: 11.256px;
+        padding: 21.44px 0 23.1418px 0;
+    }
+    .story__and__details > button{
+        padding: 6.365px 0 8.375px 0;
+        border-radius: 5.36px;
+        font-size: 9.38px;
+        line-height: 12.194px;
+    }
+    .happy__elderly__people{
+        margin: 0 0 0 13.4px;
+    }
+    .lotto__numbers{
+        padding: 0 0 0 6.7px;
+    }
+    .lotto__results{
+        padding: 12.8975px 0 0 0;
+    }
+    .lotto__results > h3{
+        font-size: 9.38px;
+        line-height: 11.256px;
+        height: 13.4px;
+    }
+    .lotto__array__numbers > p{
+        padding: 2.01px;
+        font-size: 8.04px;
+        line-height: 9.648px;
+        margin: 0 1.34px;
+        width: 14.07px;
+    }
+    .lotto__numbers__date{
+        font-size: 8.04px;
+        line-height: 10.452px;
+        padding: 3.35px 0 0 0;
+    }
+
+    /* FAQ */
+    .faq__title{
+        font-size: 16.08px;
+        line-height: 24.12px;
+        padding: 50.25px 0 10.05px 0;
+    }
+    .faq{
+        padding: 0 0 50.25px 0;
+    }
+    .faq > .question{
+        border-bottom: 0.67px solid #E0E0E0;
+        padding: 12.06px 13.4px 6.7px 6.7px;
+        font-size: 12.06px;
+        line-height: 16.08px;
+    }
+    /* FOOTER */
+    footer{
+        display: grid;
+        grid-template-columns: 215.74px 1fr 167.5px;
+        grid-template-rows: 117.25px auto;
+        padding: 0 0 36.85px 0;
+        row-gap: 24.79px;
+    }
+    .g1 > .icon{
+        width: 24.12px;
+        margin: 0 10.05px 0 0;
+    }
+    .g1 > .text > h4{
+        font-size: 10.72px;
+        line-height: 14.07px;
+    }
+    .g1 > .text > h5{
+        font-size: 8.04px;
+        line-height: 14.07px;
+    }
+    .g3{
+        gap: 6.7px;
+    }
+    .g3 > .social{
+        width: 24.12px;
+        height: 24.12px;
+    }
+    .g4{
+        padding: 0 0 0 73.03px;
+    }
+    .g4 > .title {
+        font-size: 10.72px;
+        line-height: 14.07px;
+        margin: 0 0 10.05px 0;
+    }
+    .g4 > p {
+        margin: 0 0 3.35px 0;
+        font-size: 10.72px;
+        line-height: 14.07px;
+    }
+    .g4 > h4{
+        font-size: 10.72px;
+        line-height: 14.07px;
+    }
+    .g5 > .text{
+        max-width: 167.5px;
+    }
+    .g5 > .text > h4{
+        font-size: 10.72px;
+        line-height: 14.07px;
+    }
+    .g5 > .text > p{
+        font-size: 8.04px;
+        line-height: 9.648px;
+        padding: 10.05px 0 3.35px 0;
+    }
+    .g5 > .text > h6{
+        font-size: 8.71px;
+        line-height: 14.07px;
+    }
+    .g6 > .top > h2 {
+        font-size: 10.72px;
+        line-height: 14.07px;
+        padding: 0 0 6.7px 0;
+    }
+    .g6 > .top > section{
+        gap: 6.7px;
+        width: 101.84px;
+    }
+    .g6 > .top{
+        padding: 0 0 20.1px;
+    }
+    .g6 > .bottom > h2{
+        font-size: 10.72px;
+        line-height: 14.07px;
+        padding: 0 0 8.04px 0;
+    }
+    .g6 > .bottom > section > div{
+        padding: 0 6.7px 0 0;
+    }
+}
